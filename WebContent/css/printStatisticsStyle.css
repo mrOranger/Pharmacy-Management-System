@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+body {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+  	font-size: 12px;
+  	background: #eee;
+  	color:#666;
+}
+
+tbody > tr:hover{
+	background-color: #86d1d0;
+}
+
+
+.nav-link:hover, .nav-item:hover {
+	color: #e0cecc;
+}
+
+.nested-table {
+	text-align: center;
+}
+
+.nested-table-row {
+	width: 120px;
+}
+
+.nested-table-img {
+	cursor: pointer;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}

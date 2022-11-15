@@ -1,0 +1,99 @@
+@CHARSET "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  background: #eee;
+  color:#666;
+}
+.insert-container{
+  height: 100vh;
+  width: 100%;
+}
+.insert-form{
+  margin: auto;
+  width: 75%;
+  padding: 15px;
+  max-width: 100%;
+}
+.insert-form .insert-control{
+  font-size: 15px;
+  min-height: 48px;
+  font-weight: 500;
+}
+.insert-form a{
+  text-decoration: none;
+  color:#666;
+}
+.insert-form a:hover{
+  color:#723dbe;
+}
+
+.insert-control:focus{
+  border-color:#723dbe;
+  box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
+}
+.btn-custom{
+  background: #723dbe;
+  border-color:#723dbe;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 48px;
+}
+
+.btn {
+	width: 30%;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+  background: #54229d;
+  border-color: #54229d;
+  color:#fff;
+}
+.btn-custom:focus{
+  box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
+}
+
+.product-name{
+	width: 100%;
+}
+
+.product-quantity {
+	width: 65%;
+	margin-left: 60px;
+}
+
+.product-cost {
+	width: 65%;
+	margin-left: 30px;
+}
+
+.fa-icon {
+	cursor: pointer;
+}
+
+.row {
+	margin-bottom: 15px;
+}
+
+.card {
+	border-radius: 20px;
+	width: 85%;
+	background-color:lightblue;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+h1, p {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
